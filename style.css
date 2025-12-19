@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* (1)一回リセットCSS以外消す */
+/* (2)各項目ごとに記述を分ける */
+/* (3)コピペできるものはコピペで済ませる */
+/* (4)やりたいことを日本語で書いておき、AIに書かせる */
+
+
+/* (2)HEADER */
+/* (3) */
+
+header {
+    background-color: #ffffff;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .logo {
+
+      font-weight: bold;
+      font-size: 1.25rem;
+      background: #ffffff;
+      }
+.logo img{width: 180px;
+height: 80px;
+background: #ffffff;
+}
+.box{
+    width: 100%;
+    height: 810px;    
+    background-image: url(images/スクリーンショット\ 2025-12-12\ 14.29.51.png);/* 背景色は任意 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ddd3d3;}
+
+    .shake{
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    
+    rgb(255, 255, 255), rgb(95, 154, 174), rgb(255, 255, 255), rgb(167, 158, 206), rgb(255, 255, 255), rgb(182, 200, 227), rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: rainbow 4s linear infinite;
+  background-size: 400%;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 0% }
+  100% { background-position: -100% 0% }
+
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }}
+
+
+    
+
+
+
+
+.hikari img{
+    width: 320px;
+    height: 320px;
+    border-radius: 160px;
+    background: #000;}
+.hikari {
+    display: flex;
+    width: 100%;
+    padding: 80px 249px 80px 211px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    
+}
+.works{width: 100%;
+background: #000;
+padding-bottom: 10px;
+color: #FFF;
+text-align: center;
+
+line-height: normal;
+}
+.warks2{padding: 80px;}
+
+
+
+
+
+.works img{width: 320px ; 
+height: 180px ;
+flex-shrink: 0;
+background: #FFF;}
+
+
+
+
+
+
+ .ko{color: #FFF;
+text-align: center;
+width: 100%;
+height:496px;
+background: #1C1C1C;
+
+}
+.ko2{padding: 80px;}
+
+.ko img{color: #FFF;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-flex;
+height: 104px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.ko3{color: #FFF;
+font-size: 12px;
+line-height: normal;
+width: 100%;
+}
+
+
+.po {display: flex;
+width: 100%;
+height: 85px;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+align-content: space-between;
+background: #000;
+color: #FFF;
+font-family: Futura;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:100%; /* 150% */
+
+
+
+}
+
+
+/* (2)Main Visual */
+/* (4)やりたいことを日本語で書いておき、AIに書かせる */
+
+/* 画面幅いっぱいで高さは480pxの箱の中にMain Visulaという文字を中心に表示*/
+
+
+
+/* (2)About */
+
+
+
+/* (2)Works */
+
+
+/* (2)Contact */
+
+/* (2)Footer */
